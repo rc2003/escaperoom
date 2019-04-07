@@ -214,11 +214,10 @@ class Game:
         exit()
 
     def update(self):
-        #if IS_WINDOWS:
-        #    system("cls")
-        #else:
-        #    system("clear")
-        system("clear")
+        if IS_WINDOWS:
+            system("cls")
+        else:
+            system("clear")
 
         if self.counter>=80:
             print()
