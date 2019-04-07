@@ -1,0 +1,235 @@
+{
+    "C":{
+        "name":"cattedra",
+        "color":"magenta",
+        "description":"non ho mai visto una cattedra così sporca",
+        "interactions":{  
+            "no-item":{  
+                "message":"pensi di metterti in tasca una cattedra?"
+
+            }
+        }
+    },
+    "G":{  
+        "name":"studente",
+        "description":"guarda chi c'è! uno studente con poca voglia di studiare!",
+        "color":"red",
+        "interactions":{  
+            "no-item":{  
+                "message":"\"PROF NON HO CAPITO NULLA!!\"",
+                "game_over":"ti metti a spiegare il teorema e fai giusto in tempo a morire"
+            }
+        }
+    },
+    "F":{  
+        "name":"finestra",
+        "description":"che bella vista",
+        "color":"green",
+        "interactions":{  
+            "no-item":{  
+                "message":"apriamo la finestra, qua dentro c'è puzza di carogna",
+                "transform":"-"
+            }
+        }
+    },
+    "-":{  
+        "name":"finestra",
+        "description":"che bella vista",
+        "color":"cyan",
+        "interactions":{  
+            "no-item":{  
+                "message":"chiudiamo la finestra, qua dentro si congela",
+                "transform":"F"
+            }
+        }
+    },
+    "M":{  
+        "name":"impiegato del McDonald's",
+        "description":"si vede che fa il Moro, ha la divisa del Mc e puzza di fritto",
+        "color":"cyan",
+        "interactions":{  
+            "no-item":{  
+                "message":"\"Hai fame ragazzo? Ecco a te un bel panino.. Ora io faccio fuga, bella! \"",
+                "reset_hunger": true,
+                "transform": " "
+            }
+        }
+    },
+
+    "V":{  
+        "name":"distributore automatico",
+        "description":"Oh che bel distributore! Lo Spalla esporta qualità nelle altre scuole",
+        "color":"green",
+        "interactions":{  
+            "no-item":{  
+                "message":"Pavarini mangia uno spuntino, così per golosità..",
+                "remove_hunger": true,
+                "transform":"Q"
+
+            }
+        }
+    },
+
+    "1":{  
+        "name":"porta",
+        "description":"e' una porta",
+        "color":"blue",
+        "interactions":{  
+            "no-item":{  
+                "message":"si apre",
+                "move_to_room":1
+            }
+        }
+    },
+    "2":{  
+        "name":"porta",
+        "description":"e' una porta",
+        "color":"blue",
+        "interactions":{  
+            "no-item":{  
+                "message":"si apre",
+                "move_to_room":2
+            }
+        }
+    },
+    "0":{  
+        "name":"porta",
+        "description":"e' una porta",
+        "color":"blue",
+        "interactions":{  
+            "no-item":{  
+                "message":"si apre",
+                "move_to_room":0
+            }
+        }
+    },
+    "3":{  
+        "name":"porta",
+        "description":"e' una porta",
+        "color":"blue",
+        "interactions":{  
+            "no-item":{  
+                "message":"si apre",
+                "move_to_room":3
+            }
+        }
+    },
+    
+    "X":{  
+        "name":"cartaccia",
+        "description":"ma il Moro è pure sporco...",
+        "color":"black",
+        "interactions":{  
+            "no-item":{  
+                "message":"vabbè dai facciamo le persone civili..",
+                "transform":" ",
+                "pickup":true
+            }
+        }
+    },
+
+    "T":{  
+        "name":"Tecnico",
+        "description":"E' il tecnico del moro che sta bevendo un caffè",
+        "color":"green",
+        "interactions":{  
+            "no-item":{  
+                "message":"\"Sono un tecnico, cosa vuoi che faccia se non bermi un caffè?\""               
+            }
+        }
+    },
+
+    "Q":{  
+        "name":"distributore automatico",
+        "description":"Il distributore sembra avere qualche problema",
+        "color":"green",
+        "interactions":{  
+            "no-item":{  
+                "message":"Il distributore ha smesso di funzionare, in questa scuola non funziona mai niente"
+
+            }
+        }
+    },
+
+    "K":{  
+        "name":"coltello",
+        "description":"è un coltello piuttosto affilato, sarà caduto a qualche studente",
+        "color":"magenta",
+        "interactions":{  
+            "no-item":{  
+                "message":"le raccogli",
+                "transform":" ",
+                "pickup":true
+            }
+        }
+    },
+    "E":{  
+        "name":"un euro",
+        "description":"c'è qualcosa che luccica per terra..",
+        "color":"black",
+        "interactions":{  
+            "no-item":{  
+                "message":"ma è un euro!! Sono riccooooooo!!",
+                "transform":" ",
+                "pickup":true
+            }
+        }
+    },
+    "A":{  
+        "name":"armadio",
+        "description":"è un vecchio armadio polveroso...",
+        "color":"red",
+        "interactions":{  
+            "no-item":{  
+                "message":"pensavi di trovare la soluzione del gioco qua eh!!"
+            }
+        }
+    },
+    "U":{  
+        "name":"uscita",
+        "description":"aaahh.. che bello sarebbe uscire di qui...",
+        "color":"blue",
+        "interactions":{  
+            "no-item":{  
+                "message":"si ma fra.. è chiusa sta porta"
+
+            },
+            "Z":{  
+                "message":"vez che besia!! finalmente esci da sta gabbia detta liceo",
+                "win":"scappi a gambe levate"
+
+            }
+        }
+    },
+    "Z":{  
+        "name":"chiave",
+        "description":"e' una piccola chiave",
+        "color":"magenta",
+        "interactions":{  
+            "no-item":{  
+                "message":"la raccogli",
+                "transform":" ",
+                "pickup":true
+            }
+        }
+    },
+    "Y":{  
+        "name":"preside",
+        "description":"occhio zio è la preside, non vuole essere disturbata..",
+        "color":"yellow",
+        "interactions":{  
+            "no-item":{  
+                "message":"\"professor Pavarini, come osa disturbare il mio ozio quotidiano??\"",
+                "game_over":"vieni rinchiuso nelle prigioni del Moro dalla preside.. mi dispiace zio"
+            },
+            "E":{  
+                "message":"corrompi la preside con un euro, lei in cambio ti consegna le chiavi per uscire",
+                "transform":"Z"
+            },
+            "K":{  
+                "message":"accoltelli la preside e le rubi le chiavi per uscire",
+                "transform":"Z"
+            }
+        }
+    }
+}

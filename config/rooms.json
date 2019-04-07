@@ -1,0 +1,25 @@
+{
+    "0": {
+        "name": "Aula",
+        "description": "Il prof Pavarini si trova in un incubo: Insegna al Moro. Ha appena spiegato le  guerre puniche e molti in classe sono confusi..",
+        "color": "white"
+    },
+
+    "1": {
+        "name": "Corridoio",
+        "description": "Sei sfuggito dagli studenti, ora ti trovi in corridoio. Ti consiglio caldamente di sfamarti",
+        "color": "white"
+    },
+    
+    "2": {
+        "name": "Scale",
+        "description": "Metti alla prova le tue abilità da videogiocatore in questa mappa",
+        "color": "white"
+    },
+
+    "3": {
+        "name": "Atrio",
+        "description": "Ok zio, ora devi solo scappare da sta specie di manicomio.. prova a capire come fare",
+        "color": "white"
+    }
+}
